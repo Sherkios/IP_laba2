@@ -8,6 +8,7 @@
 </head>
 <body>
 	<a href="laba2-1.php">первое задание</a> <br>
-	<a href="laba2-2.php">второе задание</a>
+	<a href="laba2-2.php">второе задание</a> <br>
+	<a href="laba2-3.php">Третье задание</a> <br>
 </body>
 </html>
