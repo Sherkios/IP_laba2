@@ -45,6 +45,19 @@
 		}
 		$srArif = $sumOfMass / $countOfMass;
 		echo "$srArif";
+
+		echo "</br> Поиск значения 50 </br>";
+		if (in_array(50, $mass)) {
+			echo "50 есть в массиве";
+		} else {
+			echo "50 нет в массиве";
+		}
+
+		echo "</br> удаление повтора </br>";
+		$mass = array_unique($mass);
+		foreach ($mass as  $value) {
+			echo "$value ";
+		};
 	 ?>
 </body>
 </html>
