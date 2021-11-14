@@ -10,5 +10,6 @@
 	<a href="laba2-1.php">первое задание</a> <br>
 	<a href="laba2-2.php">второе задание</a> <br>
 	<a href="laba2-3.php">Третье задание</a> <br>
+	<a href="laba2-4.php">1 самостоятельная</a> <br>
 </body>
 </html>
