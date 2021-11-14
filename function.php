@@ -3,10 +3,10 @@
 		echo "$text";
 	}
 
-	function filingArr($n) {
+	function filingArr($n, $l) {
 		$mass = array();
 		for ($i=0; $i < $n; $i++) { 
-			for ($k=0; $k < $n ; $k++) { 
+			for ($k=0; $k < $l ; $k++) { 
 				$mass[$i][$k] = rand(-20, 20);
 			}
 		}
@@ -50,5 +50,17 @@
 		}
 
 		return $mass;
+	}
+
+	function summa($mass) {
+		$sum;
+		for ($i=0; $i < count($mass) ; $i++) { 
+			for ($j=0; $j < count($mass[1]) ; $j++) { 
+				if ($i - $j == 6) {
+					$sum += $mass[$i][$j];
+				}
+			}
+		}
+		return $sum;
 	}
  ?>

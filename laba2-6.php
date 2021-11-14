@@ -15,7 +15,7 @@
 		$mass = array();
 		echo "<br>";
 		
-		$mass = filingArr(8);
+		$mass = filingArr(8,8);
 		echo "<br> Матрица ";
 		outMass($mass);
 		echo "<br> Матрица после преобразований";
@@ -25,6 +25,9 @@
 		echo "<br><br><br>";
 
 		example("Найти сумму элементов A(i,j) массива A(m,n), имеющих заданную разность индексов i-j=k. Число k целое, но не обязательно положительное.");
+		$mass = filingArr(7,9);
+		echo "Число k = 6 Сумма = ", summa($mass);
+
 	 ?>
 
 
